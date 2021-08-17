@@ -46,3 +46,14 @@ body:
       description: Put any other related context and/or screenshots here.
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agree to our policies
+      description: By submitting this issue, you agree to follow our policies.
+      options:
+        - label:
+            I agree to follow the [Code of Conduct](https://github.com/megogo/ugc-api-issues/blob/main/CODE_OF_CONDUCT.md).
+          required: true
+
