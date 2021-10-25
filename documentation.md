@@ -260,4 +260,4 @@ Example response:
 }
 ```
 
-Keep going and dive into [Swagger-API documentation](https://ugc-api-swagger.k8s-rc-101.it.megogo.dev/)
+Keep going and dive into [Swagger-API documentation](https://ugc-api-swagger.megogo.dev/)
