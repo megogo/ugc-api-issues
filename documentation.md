@@ -1,7 +1,7 @@
 Direct upload helps you upload content using authenticated upload URL.
 You can use the authenticated upload URL in order to upload your content from different clients, such as browsers, mobile apps, or command-line tools, depends on your business use-cases.
 
-[Swagger-API documentation](https://ugc-api-swagger.k8s-rc-101.it.megogo.dev/)
+[Swagger-API documentation](https://ugc-api-swagger.megogo.dev/)
 
 Let's start by walking through several steps:
 
@@ -176,13 +176,15 @@ Example response:
       "mpd": "http://example_mpd_streaming_link/manifest.mpd",
       "ss": "http://example_ss_streaming_link/Manifest"
    },
-   "preview": "http://example_download_link/3000999751.jpg"
+   "preview_small": "http://example_download_link/3000999751.jpg",
+   "preview_big": "http://example_download_link/4000999751.jpg"
 }
 ```
 It provides you with several useful links for your business needs:
 
 * _streaming_links_ - for streaming your content
-* _preview_ - preview picture
+* _preview_small_ - preview picture (162x100)
+* _preview_big_ - preview picture (640x360)
 
 **4. Listen for webhooks**
 
